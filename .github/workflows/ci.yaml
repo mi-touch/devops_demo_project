@@ -27,8 +27,8 @@ jobs:
           docker push thedevopsdude/complete-devops-project:${{ env.SHORT_SHA }}
       - name: Congure Git Author
         run: |
-          git config --local user.email "hello@thedevopsdude.com"
-          git config --local user.name "thedevopsdude01"
+          git config --local user.email "timileyinadefare@yahoo.com"
+          git config --local user.name "Timileyin Adefare"
       - name: Update Helm Chart with new image tag
         run: |
           sed -i "s/tag:.*/tag: ${{ env.SHORT_SHA }}/" ./complete-devops-project-time-printer/values.yaml
