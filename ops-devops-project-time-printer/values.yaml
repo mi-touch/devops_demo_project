@@ -1,0 +1,13 @@
+image:
+  repository: mitouch/devops_demo_project
+  tag: bdb0130
+  pullPolicy: IfNotPresent
+service:
+  type: ClusterIP
+  port: 8080
+ingress:
+  enabled: false
+serviceAccount:
+  enabled: false
+autoscaling:
+  enabled: false
