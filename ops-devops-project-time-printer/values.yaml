@@ -1,6 +1,10 @@
 image:
   repository: mi-touch/devops_demo_project
-  tag: b50b5b9
+  tag: 24d0e66
+=======
+  repository: mitouch/devops_demo_project
+  tag: fd20f91
+>>>>>>> 1b4594539088e1d9662fdd2c36a4ec091ed2379e
   pullPolicy: IfNotPresent
 service:
   type: ClusterIP
