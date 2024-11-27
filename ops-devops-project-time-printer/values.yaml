@@ -1,5 +1,5 @@
 image:
-  repository: mi-touch/devops_demo_project
+  repository: mitouch/devops_demo_project
   tag: 348318d
   pullPolicy: IfNotPresent
 service:
